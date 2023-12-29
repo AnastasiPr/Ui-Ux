@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+.active__item a{
+    color: black;
+}
+
+.active__item_black a{
+    color: white;
+}
+
+.page-item {
+    font-size: 25px;
+     
+}
+
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../public/static/background.png');
+}
+
+.bg_black{
+    background-blend-mode: difference;
+}
+
+.-z-index-1{
+    z-index: -1;
+}
+
+.z-index-5{
+    z-index: 5;
+}
+ 
+.bg-movie{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../public/static/bg-movie.png');
+    background-position: bottom;
+
+}
